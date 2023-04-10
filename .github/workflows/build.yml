@@ -24,7 +24,7 @@ jobs:
           npx antora local-antora-playbook.yml --fetch 
             # Uploads the generated site
             
-     - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v3
         with:
           name: docs 
           path: docs/ 
